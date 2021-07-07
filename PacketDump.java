@@ -11,7 +11,7 @@ import ghidra.program.model.listing.GhidraClass;
 import ghidra.program.model.listing.Instruction;
 import ghidra.program.model.mem.MemoryAccessException;
 
-public class PacketDump_x64 extends GhidraScript {
+public class PacketDump extends GhidraScript {
 
 	@Override
 	protected void run() throws Exception {
